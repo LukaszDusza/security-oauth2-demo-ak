@@ -44,7 +44,7 @@ public class UserInfoService implements UserDetailsService {
     }
 
     public void deleteUserInfoById(Integer id) {
-        userInfoRepository.deleteById(id);
+        userInfoRepository.delete(id);
     }
 
     @Override
